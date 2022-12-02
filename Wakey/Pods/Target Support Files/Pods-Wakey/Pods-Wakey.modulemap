@@ -1,0 +1,6 @@
+framework module Pods_Wakey {
+  umbrella header "Pods-Wakey-umbrella.h"
+
+  export *
+  module * { export * }
+}
