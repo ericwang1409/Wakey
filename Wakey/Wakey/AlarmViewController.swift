@@ -8,7 +8,7 @@
 import UIKit
 
 class AlarmViewController: UIViewController {
-    var alarmTime: UIDatePicker!
+    var alarmTime: String!
     var change: Bool! = false
     
     @IBOutlet weak var clockLabel: UILabel!
@@ -25,7 +25,7 @@ class AlarmViewController: UIViewController {
         clockLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .short)
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector:#selector(self.tick) , userInfo: nil, repeats: true)
         
-        alarmTimeLabel.text = DateFormatter.localizedString(from: alarmTime.date, dateStyle: .none, timeStyle: .short)
+        alarmTimeLabel.text = alarmTime
         
         
         // Do any additional setup after loading the view.

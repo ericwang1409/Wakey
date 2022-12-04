@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:162730872923:ios:0bac06088b234543706f7e</string>
+	<key>DATABASE_URL</key>
+	<string>https://wakey-id-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
