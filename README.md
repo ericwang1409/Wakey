@@ -1,4 +1,5 @@
 Video Link: https://youtu.be/gW0iUTBfbZU 
+Github Link to Files: https://github.com/ericwang1409/Wakey
 
 Say, for instance, a group of three friends make plans to go to the gym together early tomorrow morning. They each live in a different dorm, all about the same distance from the gym, so they plan to all wake up at the same time. However, they have a problem: they all have incredibly poor will power, and none of them can be trusted to reliably wake themselves up that early in the morning. They need a way to hold each other accountable; and this is where Wakey comes in. 
 
