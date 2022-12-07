@@ -1,0 +1,47 @@
+{
+  "Eric": {
+    "alarmCode": "Eric",
+    "currentTime": "3:24 PM",
+    "dateTime": "3:26 PM"
+  },
+  "Josh": {
+    "alarmCode": "Josh",
+    "currentTime": "3:24 PM",
+    "dateTime": "3:13 PM"
+  },
+  "Test50": {
+    "alarmCode": "Test50",
+    "currentTime": "9:44 PM",
+    "dateTime": "9:46 PM"
+  },
+  "Wakeup": {
+    "alarmCode": "Wakeup",
+    "currentTime": "3:40 PM",
+    "dateTime": "3:45 PM"
+  },
+  "banana": {
+    "alarmCode": "banana",
+    "currentTime": "3:27 PM",
+    "dateTime": "3:29 PM"
+  },
+  "test": {
+    "alarmCode": "test",
+    "currentTime": "3:09 PM",
+    "dateTime": "3:09 PM"
+  },
+  "test2": {
+    "alarmCode": "test2",
+    "currentTime": "3:09 PM",
+    "dateTime": "3:09 PM"
+  },
+  "test5": {
+    "alarmCode": "test5",
+    "currentTime": "3:31 PM",
+    "dateTime": "3:33 PM"
+  },
+  "testalarm": {
+    "alarmCode": "testalarm",
+    "currentTime": "9:30 PM",
+    "dateTime": "9:20 PM"
+  }
+}

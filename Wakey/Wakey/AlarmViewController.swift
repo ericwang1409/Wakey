@@ -11,26 +11,24 @@ class AlarmViewController: UIViewController {
     var alarmTime: String!
     var change: Bool! = false
     
+    //labels connected to storyboard
     @IBOutlet weak var clockLabel: UILabel!
     @IBOutlet weak var alarmTimeLabel: UILabel!
     
-    //time label in app
-    
-    //timer object to keep track of live time
     var timer = Timer()
     
+    //runs when ViewController loads
     override func viewDidLoad() {
         super.viewDidLoad()
         
         clockLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .short)
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector:#selector(self.tick) , userInfo: nil, repeats: true)
         
+        //sets the alarm time
         alarmTimeLabel.text = alarmTime
-        
-        
-        // Do any additional setup after loading the view.
     }
     
+    //runs every second
     @objc func tick() {
         clockLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .short)
         
@@ -42,15 +40,7 @@ class AlarmViewController: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    //button to stop alarm
     @IBAction func stopAlarm(_ sender: UIButton) {
         alarmTimeLabel.text = ""
     
